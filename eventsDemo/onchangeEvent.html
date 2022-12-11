@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>ON CHANGE FORM EVENT</h1>
+    <label>PAYMENT OPTIONS:</label>
+        <select id="myid" onchange="pay()">
+            <option hidden>Select payment</option>
+            <option value="MASTER">MASTERCARD</option>
+            <option value="VISA">VISA CARD</option>
+        </select>
+        <h1 id="myid2">Your payment method is</h1>
+        <script>
+            function pay(){
+                var v = document.getElementById("myid").value;
+                document.getElementById("myid2").innerHTML = "Your payment method is " + v;
+            }
+        </script>
+</body>
+</html>

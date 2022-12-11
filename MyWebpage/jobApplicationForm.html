@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./job.css">
+</head>
+
+<body>
+    <h1>Job Application Form</h1>
+    <div class="container"> 
+        <form>
+            <label>First name: </label>
+            <input type="text" placeholder="Enter your first name" name="first_name" id="first_name" /><br><br>
+            <label>Last name: </label>
+            <input type="text" placeholder="Enter your last name" name="last_name" id="last_name" /><br><br>
+            <label>Date of Birth: </label>
+            <input type="date" min="1995-01-01" max="2022-11-28" /></label><br>
+            <br>
+            <label>Gender: </label>
+            <label><input type="radio" name="gender" value="male" />Male</label>
+            <label><input type="radio" name="gender" value="female" />Female</label><br>
+            <br>
+            <label>Educational Qualification :</label><br><br>
+            <label><input type="checkbox" name="edu" id="diploma">Diploma</input></label><br>
+            <label><input type="checkbox" name="edu" id="bachelor">Bachelor's Degree</input></label><br>
+            <label><input type="checkbox" name="edu" id="master">Master's Degree</input></label><br>
+            <br>
+            <label>Your current employment status? </label><br><br>
+            <label><input type="radio" name="status" id="employed">Employed</input></label><br>
+            <label><input type="radio" name="status" id="selfemployed">Self-Employed</input></label><br>
+            <label><input type="radio" name="status" id="unemployed">Unemployed</input></label><br>
+            <label><input type="radio" name="status" id="student">Student</input></label><br>
+            <br>
+            <label>Position you're applying for</label>
+            <select>
+                <option value="software-eng">Software Engineer</option>
+                <option value="businessanalyst">Business Analyst</option>
+                <option value="qatester">QA Tester</option>
+                <option value="admin">Administration</option>
+            </select><br>
+            <br>
+            <input type="submit"/>
+            <input type="reset" />
+        </form>
+    </div>
+    
+</body>
+
+</html>

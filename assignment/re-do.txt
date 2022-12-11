@@ -1,0 +1,85 @@
+ <div class="col">
+                    <div class="card">
+                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                            preserveAspectRatio="xMidYMid slice" focusable="false">
+                            <image href="./img/web1.PNG" width="100%" />
+                        </svg>
+
+                        <div class="card-body">
+                            <p class="lead">GP Website</p>
+                            <p class="card-text">Website for GP company, for another software house</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                            preserveAspectRatio="xMidYMid slice" focusable="false">
+                            <image href="./img/web2.PNG" width="100%" />
+                        </svg>
+
+                        <div class="card-body">
+                            <p class="lead">Admin Dashboard</p>
+                            <p class="card-text">Admin dashboard for in-house HR system</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                            preserveAspectRatio="xMidYMid slice" focusable="false">
+                            <image href="./img/web3.PNG" width="100%" />
+                        </svg>
+
+                        <div class="card-body">
+                            <p class="lead">NineStars Website</p>
+                            <p class="card-text">Website for client digital solution</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                            preserveAspectRatio="xMidYMid slice" focusable="false">
+                            <image href="./img/web4.PNG" width="100%" />
+                        </svg>
+
+                        <div class="card-body">
+                            <p class="lead">Reveal Website</p>
+                            <p class="card-text">Website for client digital solution</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                            preserveAspectRatio="xMidYMid slice" focusable="false">
+                            <image href="./img/web5.PNG" width="100%" />
+                        </svg>
+
+                        <div class="card-body">
+                            <p class="lead">Softland Mobile App</p>
+                            <p class="card-text">Website template for startup companies</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                            preserveAspectRatio="xMidYMid slice" focusable="false">
+                            <image href="./img/web6.PNG" width="100%" />
+                        </svg>
+
+                        <div class="card-body">
+                            <p class="lead">Softland Mobile App</p>
+                            <p class="card-text">Created mobile app softland and its website</p>
+
+                        </div>
+                    </div>
+                </div>

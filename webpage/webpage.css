@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+h1{
+    font-family: Arial,sans-serif;
+}
+
+h1.first-heading{
+    margin: 0 0;
+    border-bottom: 1px solid black;
+    background-color: pink;
+    text-align: center;
+    height: 50px;
+    padding: 10px;
+}
+
+h1.subheading{
+    font-size: 20px;
+    margin: 20px;
+    text-decoration: underline;
+}
+
+img{
+    width: 50%;
+    height: 50%;
+}
+
+div.media{
+    text-align: center;
+    border: 1px solid maroon;
+    background-color: pink;
+    width: 50%;
+    margin: 0 auto;
+}

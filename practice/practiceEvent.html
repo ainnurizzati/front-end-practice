@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .div-form {
+            margin: 10px auto; 
+            padding: 10px;         
+            background-color: pink;
+            width: fit-content;
+            border: 1px solid rgb(255, 15, 87);
+            border-radius: 5px;
+            font-family: Arial, Helvetica, sans-serif
+        }
+    </style>
+</head>
+
+<body>
+    <div class="div-form">
+        <h1>Practice Form Events</h1>
+        <form action="showInfo.html" onsubmit="c()">
+            <label>Name:</label>
+            <input type="text" placeholder="Enter your name..." name="name" value="" onchange="a(this.value)" oninvalid="b()" required>
+            <br>
+            <br>
+            <label>Gender:</label>
+            <label><input type="radio" name="gender" value="female" required>Female</label>
+            <label><input type="radio" name="gender" value="male">Male</label>
+            <br>
+            <br>
+            <label>Education Background
+                <br><br>
+                <select name="education" id="education" required>
+                    <option value="" hidden>Select education</option>
+                    <option value="diploma">Diploma</option>
+                    <option value="bachelor">Bachelor's Degree</option>
+                    <option value="master">Master's Degree</option>
+                </select>
+            </label>
+            <input type="submit" value="Submit">
+        </form>
+        <p id="msg"></p>
+    </div>
+</body>
+
+<script>
+    function a(value){
+        value? alert("Your name is " + value) : alert("Your name can't be empty");
+         
+    }
+
+    function b(){
+        alert("You must fill this!");
+    }
+
+    function c(){
+        alert("Your form was submitted!");
+    }
+</script>
+</html>

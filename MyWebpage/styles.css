@@ -1,0 +1,20 @@
+h1{
+    border: 1px solid blue;
+    padding: 2px;
+    font-size: 60px;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+p{
+    background-color: aqua;
+}
+
+h1.heading {
+    padding: 50px;
+}
+
+#subheading {
+    background-color: pink;
+    border-color: black;
+}

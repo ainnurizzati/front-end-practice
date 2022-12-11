@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>ONE KEY DOWN EVENT</h1>
+    <p>Event occurs when you press down key arrow</p>
+    <label>First name
+        <input type="text" id="demo" onkeydown="keydownFunction()" onkeyup="keyupFunction()">
+    </label>
+   
+    <script> 
+        function keydownFunction(){
+           document.getElementById("demo").style.backgroundColor = "red";
+        }
+
+        function keyupFunction(){
+           document.getElementById("demo").style.backgroundColor = "green";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root {
+    --pastel-green: #DEF2C8;
+    --pastel-red: #BD6B73;
+    --white: #ffffff;
+    --black: #000000;
+}
+
+body {
+    background-color: var(--white);
+    font-family: Roboto, sans-serif;
+}
+
+.header-custom {
+    background-color: var(--pastel-green);
+}
+
+.logo-title {
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+}
+
+.services-title {
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.our-work-title {
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#our-work>.col>.card {
+    margin-bottom: 10px;
+}
+
+#our-work>.col>.card>.card-img-top {
+    width: 100%;
+    height: 225px;
+}
+
+.card-link {
+    color: black;
+}
+
+.nav-pills .nav-link {
+    color: var(--pastel-red);
+}
+
+.nav-link.active {
+    background-color: var(--pastel-red) !important;
+}
+
+.row-custom {
+    padding: 10px;
+    margin: 10px;
+}
+
+.badge {
+    font-size: 0.6em;
+}
+
+.album>.container {
+    background-color: var(--pastel-green);
+    padding: 20px;
+}
+
+.home-custom {
+    margin-top: 10px;
+}
+
+.row-services {
+    padding: 10px;
+    text-align: center;
+    background-color: var(--white);
+    margin: 10px 0 10px 0;
+}
+
+.about-us-custom {
+    background-color: var(--white);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.about-us-title {
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#home {
+    text-align: center;
+    height: 200px;
+    margin: 0;
+}
+
+.our-work {
+    background-color: var(--white);
+    margin-top: 20px;
+}
+
+.container-custom {
+    background-color: var(--pastel-green);
+    margin-bottom: 50px;
+}
+
+footer {
+    background-color: var(--pastel-green);
+    margin-top: 20px;
+}
